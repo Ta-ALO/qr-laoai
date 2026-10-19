@@ -1,5 +1,10 @@
 # LaoAI - 3 ຊ່ອງທາງໃນການນຳໃຊ້ (Mobile Web Portal)
 
+🌐 **Live Website:** [https://ta-alo.github.io/qr-laoai/](https://ta-alo.github.io/qr-laoai/)  
+📦 **GitHub Repository:** [https://github.com/Ta-ALO/qr-laoai](https://github.com/Ta-ALO/qr-laoai)
+
+---
+
 ເວັບໄຊທ໌ສຳລັບຜູ້ໃຊ້ງານເທິງໂທລະສັບມືຖື (Mobile-First) ທີ່ລວບລວມ **3 ຊ່ອງທາງໃນການເຂົ້າໃຊ້ງານ ແລະ ດາວໂຫລດ LaoAI**:
 1. **ເວັບໄຊທ໌ LaoAI (Web Browser):** [https://chat.laoai.la/](https://chat.laoai.la/)
 2. **Apple App Store (iOS):** [https://apps.apple.com/us/app/laoai/id6749930140](https://apps.apple.com/us/app/laoai/id6749930140)
