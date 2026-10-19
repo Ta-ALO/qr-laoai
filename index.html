@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="lo" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LaoAI - 3 ຊ່ອງທາງໃນການນຳໃຊ້</title>
+  <meta name="description" content="3 ຊ່ອງທາງໃນການເຂົ້າໃຊ້ງານ LaoAI: ເວັບໄຊທ໌ chat.laoai.la, Apple App Store, ແລະ Google Play Store">
+  <link rel="icon" type="image/png" href="assets/images/laoai-logo.png">
+
+  <!-- Google Fonts: Noto Sans Lao & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Lao:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet (Mobile-First, Light Theme) -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Light Effects -->
+  <div class="bg-ambient" aria-hidden="true">
+    <div class="ambient-blob blob-1"></div>
+    <div class="ambient-blob blob-2"></div>
+  </div>
+
+  <!-- Site Navigation Header (Centered for Mobile) -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#" class="brand-wrapper">
+        <img src="assets/images/laoai-logo.png" alt="LaoAI Logo" class="brand-logo-img">
+        <div class="brand-meta">
+          <span class="brand-name">LaoAI</span>
+          <span class="brand-tagline">3 ຊ່ອງທາງໃນການນຳໃຊ້</span>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container">
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <h1 class="hero-title">
+        3 ຊ່ອງທາງໃນການນຳໃຊ້ <span class="gradient-text">LaoAI</span>
+      </h1>
+      <p class="hero-subtitle">
+        ເລືອກວິທີທີ່ສະດວກສຳລັບທ່ານ — ໃຊ້ງານຜ່ານເວັບໄຊທ໌ທັນທີ ຫຼື ດາວໂຫລດແອັບລົງໃນໂທລະສັບ iOS ແລະ Android
+      </p>
+    </section>
+
+    <!-- 3 Ways Grid (Single Column for Mobile) -->
+    <section class="ways-grid">
+
+      <!-- CARD 1: Web App -->
+      <article id="cardWeb" class="way-card">
+        <div class="card-top-bar">
+          <span class="card-num-badge">ວິທີທີ 1 • ເວັບບຣາວເຊີ</span>
+          <span class="card-device-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            Web Browser
+          </span>
+        </div>
+
+        <!-- Center Icon -->
+        <div class="card-header-icon icon-web">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+          </svg>
+        </div>
+
+        <h2 class="card-title">ເວັບໄຊທ໌ LaoAI</h2>
+        <div class="card-subtitle">chat.laoai.la</div>
+        <p class="card-desc">
+          ໃຊ້ງານໄດ້ທັນທີຜ່ານ Web Browser ເທິງຄອມພິວເຕີ, ແທັບເລັດ ຫຼື ມືຖື ໂດຍບໍ່ຕ້ອງຕິດຕັ້ງແອັບ
+        </p>
+
+        <!-- QR Code Preview Box (Centered) -->
+        <div class="qr-preview-wrapper" onclick="openQrModal('web')" title="ກົດເພື່ອຂະຫຍາຍ ຫຼື ດາວໂຫລດ QR Code">
+          <img src="assets/images/qr-web-branded.png" alt="LaoAI Web QR Code" class="qr-preview-img">
+          <div class="qr-hover-hint">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path>
+            </svg>
+            <span>ແຕະເພື່ອຂະຫຍາຍ QR</span>
+          </div>
+        </div>
+
+        <!-- Feature List -->
+        <ul class="card-features-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ບໍ່ຕ້ອງດາວໂຫລດ ຫຼື ຕິດຕັ້ງແອັບ</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ຮອງຮັບ Chrome, Safari, Edge, Firefox</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ເຂົ້າສູ່ລະບົບແລ້ວເລີ່ມສົນທະນາໄດ້ເລີຍ</span>
+          </li>
+        </ul>
+
+        <!-- Action Buttons -->
+        <div class="card-actions">
+          <a href="https://chat.laoai.la/" target="_blank" rel="noopener noreferrer" class="btn-primary-action">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            <span>ເປີດໃຊ້ງານເທິງເວັບ</span>
+          </a>
+
+          <div class="btn-row-secondary">
+            <button onclick="copyToClipboard('web')" class="btn-secondary-action">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>ສຳເນົາລິ້ງ</span>
+            </button>
+            <button onclick="openQrModal('web')" class="btn-secondary-action">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+              </svg>
+              <span>ເບິ່ງ QR</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 2: App Store (iOS) -->
+      <article id="cardAppStore" class="way-card">
+        <div class="card-top-bar">
+          <span class="card-num-badge">ວິທີທີ 2 • APPLE IOS</span>
+          <span class="card-device-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.76 1.04-1.82.93-2.87-.9.04-1.99.6-2.63 1.36-.57.65-1.06 1.73-.93 2.76 1 .08 2.01-.5 2.63-1.25z"/>
+            </svg>
+            iPhone / iPad
+          </span>
+        </div>
+
+        <!-- Center Icon -->
+        <div class="card-header-icon icon-apple">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.76 1.04-1.82.93-2.87-.9.04-1.99.6-2.63 1.36-.57.65-1.06 1.73-.93 2.76 1 .08 2.01-.5 2.63-1.25z"/>
+          </svg>
+        </div>
+
+        <h2 class="card-title">Apple App Store</h2>
+        <div class="card-subtitle">ສຳລັບ iPhone & iPad</div>
+        <p class="card-desc">
+          ດາວໂຫລດແອັບແທ້ຈາກ App Store ສຳລັບ iPhone ແລະ iPad ວ່ອງໄວ, ລື່ນໄຫລ, ຮອງຮັບການແຈ້ງເຕືອນ
+        </p>
+
+        <!-- QR Code Preview Box (Centered) -->
+        <div class="qr-preview-wrapper" onclick="openQrModal('appstore')" title="ກົດເພື່ອຂະຫຍາຍ ຫຼື ດາວໂຫລດ QR Code">
+          <img src="assets/images/qr-appstore-branded.png" alt="LaoAI App Store QR Code" class="qr-preview-img">
+          <div class="qr-hover-hint">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path>
+            </svg>
+            <span>ແຕະເພື່ອຂະຫຍາຍ QR</span>
+          </div>
+        </div>
+
+        <!-- Feature List -->
+        <ul class="card-features-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ແອັບແທ້ຈາກ Lao-China Digital Tech</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ຮອງຮັບ iOS 13.0 ຂຶ້ນໄປ ແລະ iPadOS</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ແຈ້ງເຕືອນທັນໃຈ & ລະບົບປອດໄພສູງ</span>
+          </li>
+        </ul>
+
+        <!-- Action Buttons -->
+        <div class="card-actions">
+          <a href="https://apps.apple.com/us/app/laoai/id6749930140" target="_blank" rel="noopener noreferrer" class="btn-primary-action">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>ດາວໂຫລດໃນ App Store</span>
+          </a>
+
+          <div class="btn-row-secondary">
+            <button onclick="copyToClipboard('appstore')" class="btn-secondary-action">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>ສຳເນົາລິ້ງ</span>
+            </button>
+            <button onclick="openQrModal('appstore')" class="btn-secondary-action">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+              </svg>
+              <span>ເບິ່ງ QR</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 3: Google Play (Android) -->
+      <article id="cardPlayStore" class="way-card">
+        <div class="card-top-bar">
+          <span class="card-num-badge">ວິທີທີ 3 • GOOGLE ANDROID</span>
+          <span class="card-device-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3.609 1.814L13.792 12 3.61 22.186c-.347-.282-.61-.793-.61-1.458V3.272c0-.665.263-1.176.61-1.458zm11.305 11.306l2.361 2.361-12.874 7.433 10.513-9.794zm0-2.24L4.4 1.087l12.874 7.433-2.36 2.36zm1.122 1.12l3.411 1.968c.84.485.84 1.278 0 1.764l-3.41 1.968-2.023-2.023 2.022-1.677z"/>
+            </svg>
+            Android Phones
+          </span>
+        </div>
+
+        <!-- Center Icon -->
+        <div class="card-header-icon icon-play">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3.609 1.814L13.792 12 3.61 22.186c-.347-.282-.61-.793-.61-1.458V3.272c0-.665.263-1.176.61-1.458zm11.305 11.306l2.361 2.361-12.874 7.433 10.513-9.794zm0-2.24L4.4 1.087l12.874 7.433-2.36 2.36zm1.122 1.12l3.411 1.968c.84.485.84 1.278 0 1.764l-3.41 1.968-2.023-2.023 2.022-1.677z"/>
+          </svg>
+        </div>
+
+        <h2 class="card-title">Google Play Store</h2>
+        <div class="card-subtitle">ສຳລັບ Android ທຸກລຸ້ນ</div>
+        <p class="card-desc">
+          ຕິດຕັ້ງ LaoAI ຈາກ Google Play Store ສຳລັບມືຖື Samsung, Xiaomi, OPPO, Vivo, Realme ແລະ ລຸ້ນອື່ນໆ
+        </p>
+
+        <!-- QR Code Preview Box (Centered) -->
+        <div class="qr-preview-wrapper" onclick="openQrModal('playstore')" title="ກົດເພື່ອຂະຫຍາຍ ຫຼື ດາວໂຫລດ QR Code">
+          <img src="assets/images/qr-playstore-branded.png" alt="LaoAI Google Play QR Code" class="qr-preview-img">
+          <div class="qr-hover-hint">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path>
+            </svg>
+            <span>ແຕະເພື່ອຂະຫຍາຍ QR</span>
+          </div>
+        </div>
+
+        <!-- Feature List -->
+        <ul class="card-features-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ແອັບແທ້ປອດໄພ 100% ຜ່ານ Play Protect</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ຮອງຮັບ Android 7.0 ຂຶ້ນໄປທຸກລຸ້ນ</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>ອັບເດດຟີເຈີໃໝ່ຕະຫຼອດເວລາ</span>
+          </li>
+        </ul>
+
+        <!-- Action Buttons -->
+        <div class="card-actions">
+          <a href="https://play.google.com/store/apps/details?id=com.caih.la.laoai&hl=en&pli=1" target="_blank" rel="noopener noreferrer" class="btn-primary-action">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>ດາວໂຫລດໃນ Google Play</span>
+          </a>
+
+          <div class="btn-row-secondary">
+            <button onclick="copyToClipboard('playstore')" class="btn-secondary-action">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>ສຳເນົາລິ້ງ</span>
+            </button>
+            <button onclick="openQrModal('playstore')" class="btn-secondary-action">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+              </svg>
+              <span>ເບິ່ງ QR</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- FAQ Section (Compact for Mobile) -->
+    <section class="faq-section">
+      <div class="section-header">
+        <h2 class="section-title">ຄຳຖາມທີ່ພົບເລື້ອຍ</h2>
+        <p class="section-subtitle">ຂໍ້ແນະນຳໃນການເລືອກໃຊ້ງານ LaoAI</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-card">
+          <div class="faq-q">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+            <span>LaoAI ແມ່ນຫຍັງ?</span>
+          </div>
+          <p class="faq-a">
+            LaoAI ແມ່ນລະບົບປັນຍາປະດິດ (AI) ທີ່ເຂົ້າໃຈພາສາລາວ ແລະ ວັດທະນະທຳລາວ ຊ່ວຍຕອບຄຳຖາມ, ຂຽນເອກະສານ, ແປພາສາ ແລະ ຊ່ວຍວຽກປະຈຳວັນຂອງທ່ານ.
+          </p>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-q">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+            <span>ຄວນເລືອກໃຊ້ຊ່ອງທາງໃດດີ?</span>
+          </div>
+          <p class="faq-a">
+            ຖ້າໃຊ້ເທິງມືຖື ແນະນຳໃຫ້ດາວໂຫລດແອັບຈາກ App Store (ສຳລັບ iPhone) ຫຼື Play Store (ສຳລັບ Android) ເພື່ອຄວາມວ່ອງໄວ; ຖ້າໃຊ້ເທິງຄອມພິວເຕີ ສາມາດເຂົ້າ chat.laoai.la ໄດ້ທັນທີ.
+          </p>
+        </div>
+
+        <div class="faq-card">
+          <div class="faq-q">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+            <span>ການນຳໃຊ້ LaoAI ມີຄ່າໃຊ້ຈ່າຍບໍ່?</span>
+          </div>
+          <p class="faq-a">
+            ທ່ານສາມາດເລີ່ມຕົ້ນໃຊ້ງານ LaoAI ໄດ້ໂດຍບໍ່ເສຍຄ່າທັງເທິງເວັບໄຊທ໌ ແລະ ແອັບພລິເຄຊັນ.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand-info">
+        <strong>LaoAI Access Portal</strong>
+        <span class="footer-copy">© 2026 LaoAI • Lao-China Digital Technology Co., Ltd.</span>
+      </div>
+
+      <ul class="footer-links">
+        <li>
+          <a href="https://chat.laoai.la/auth-share/privacy?lng=lo-LA" target="_blank" rel="noopener noreferrer">
+            ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ
+          </a>
+        </li>
+        <li>
+          <a href="mailto:info@alotechnologygroup.com">
+            ຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for QR Codes -->
+  <div id="qrModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="modal-close-btn" onclick="closeQrModal()" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <h3 id="modalTitle" class="modal-title">QR Code</h3>
+      <p id="modalSubtitle" class="modal-subtitle">ສະແກນ ຫຼື ເປີດລິ້ງ</p>
+
+      <div class="modal-qr-container">
+        <img id="modalQrImg" src="" alt="LaoAI QR Code" class="modal-qr-img">
+      </div>
+
+      <p class="card-desc" style="margin-bottom: 1rem;">
+        ສາມາດສະແກນ QR ນີ້ດ້ວຍກ້ອງມືຖືເພື່ອເຂົ້າເຖິງໄດ້ທັນທີ
+      </p>
+
+      <div class="modal-btn-group">
+        <a id="modalOpenUrlBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary-action">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          <span>ເປີດລິ້ງໂດຍກົງ</span>
+        </a>
+
+        <div class="btn-row-secondary">
+          <button id="modalDownloadPng" class="btn-secondary-action">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>ໂຫລດ PNG</span>
+          </button>
+          <button id="modalDownloadSvg" class="btn-secondary-action">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>ໂຫລດ SVG</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container">
+    <div id="toast" class="toast">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <span id="toastMsg">ສຳເນົາລິ້ງສຳເລັດແລ້ວ!</span>
+    </div>
+  </div>
+
+  <!-- Main JavaScript Logic (Pure Lao, Light Theme) -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
